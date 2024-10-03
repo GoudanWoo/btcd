@@ -9,7 +9,7 @@ require (
 	github.com/btcsuite/websocket v0.0.0-20150119174127-31079b680792
 	github.com/btcsuite/winsvc v1.0.0
 	github.com/davecgh/go-spew v1.1.1
-	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.0.1
+	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.3.0
 	github.com/decred/dcrd/lru v1.0.0
 	github.com/gorilla/websocket v1.5.0
 	github.com/jessevdk/go-flags v1.4.0
@@ -20,9 +20,11 @@ require (
 	golang.org/x/sys v0.19.0
 )
 
+replace github.com/decred/dcrd/dcrec/secp256k1/v4 v4.3.0 => github.com/GoudanWoo/dcrd/dcrec/secp256k1/v4 v4.0.0-20241003015810-c11802e0ca35
+
 require (
 	github.com/aead/siphash v1.0.1 // indirect
-	github.com/decred/dcrd/crypto/blake256 v1.0.0 // indirect
+	github.com/decred/dcrd/crypto/blake256 v1.0.1 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/kkdai/bstream v0.0.0-20161212061736-f391b8402d23 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
